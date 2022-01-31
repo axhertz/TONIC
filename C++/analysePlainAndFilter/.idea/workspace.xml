@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="analyseQEPSplain" targetName="analyseQEPSplain" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd7a7360-2e40-4c93-9555-b431b4aef8bc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ProjectId" id="1tQbgrsvsJfRzgG9e9jc9ZTwoaS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="analyseQEPSplain" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="analyseQEPSplain" TARGET_NAME="analyseQEPSplain" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="analyseQEPSplain" RUN_TARGET_NAME="analyseQEPSplain">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd7a7360-2e40-4c93-9555-b431b4aef8bc" name="Default Changelist" comment="" />
+      <created>1622704374920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622704374920</updated>
+      <workItem from="1622704376221" duration="39000" />
+      <workItem from="1622704665971" duration="10977000" />
+      <workItem from="1623084670267" duration="80000" />
+      <workItem from="1623084940527" duration="59000" />
+      <workItem from="1623750651319" duration="31000" />
+      <workItem from="1625397147139" duration="3257000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1714" y="491" width="424" height="484" key="FileChooserDialogImpl" timestamp="1625397827766">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="1714" y="491" width="424" height="484" key="FileChooserDialogImpl/67.27.2493.1413@67.27.2493.1413" timestamp="1625397827766" />
+    <state width="2447" height="408" key="GridCell.Tab.0.bottom" timestamp="1625401437257">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="408" key="GridCell.Tab.0.bottom/67.27.2493.1413@67.27.2493.1413" timestamp="1625401437257" />
+    <state width="2447" height="408" key="GridCell.Tab.0.center" timestamp="1625401437257">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="408" key="GridCell.Tab.0.center/67.27.2493.1413@67.27.2493.1413" timestamp="1625401437257" />
+    <state width="2447" height="408" key="GridCell.Tab.0.left" timestamp="1625401437257">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="408" key="GridCell.Tab.0.left/67.27.2493.1413@67.27.2493.1413" timestamp="1625401437257" />
+    <state width="2447" height="408" key="GridCell.Tab.0.right" timestamp="1625401437257">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="408" key="GridCell.Tab.0.right/67.27.2493.1413@67.27.2493.1413" timestamp="1625401437257" />
+    <state width="2447" height="488" key="GridCell.Tab.1.bottom" timestamp="1622743865631">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="488" key="GridCell.Tab.1.bottom/67.27.2493.1413@67.27.2493.1413" timestamp="1622743865631" />
+    <state width="2447" height="488" key="GridCell.Tab.1.center" timestamp="1622743865631">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="488" key="GridCell.Tab.1.center/67.27.2493.1413@67.27.2493.1413" timestamp="1622743865631" />
+    <state width="2447" height="488" key="GridCell.Tab.1.left" timestamp="1622743865631">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="488" key="GridCell.Tab.1.left/67.27.2493.1413@67.27.2493.1413" timestamp="1622743865631" />
+    <state width="2447" height="488" key="GridCell.Tab.1.right" timestamp="1622743865631">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="488" key="GridCell.Tab.1.right/67.27.2493.1413@67.27.2493.1413" timestamp="1622743865631" />
+    <state x="802" y="367" key="SettingsEditor" timestamp="1622735273450">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="802" y="367" key="SettingsEditor/67.27.2493.1413@67.27.2493.1413" timestamp="1622735273450" />
+    <state x="1587" y="561" key="com.intellij.ide.util.TipDialog" timestamp="1625397026212">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="1587" y="561" key="com.intellij.ide.util.TipDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1625397026212" />
+    <state x="960" y="300" width="707" height="864" key="find.popup" timestamp="1625399824826">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="960" y="300" width="707" height="864" key="find.popup/67.27.2493.1413@67.27.2493.1413" timestamp="1625399824826" />
+  </component>
+</project>

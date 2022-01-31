@@ -1,0 +1,15 @@
+/*+NestLoop(a1 n1)NestLoop(ci rt)NestLoop(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 26.401129484176636 / 26.401129484176636
+/*+HashJoin(a1 n1)NestLoop(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)NestLoop(a1 n1 ci rt t mc cn)*/ time: 9.325321435928345 / 9.325321435928345
+/*+HashJoin(a1 n1)NestLoop(ci rt)HashJoin(ci rt t)NestLoop(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 40.036425828933716 / 40.036425828933716
+/*+HashJoin(a1 n1)NestLoop(ci rt)NestLoop(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 25.074317693710327 / 25.074317693710327
+/*+HashJoin(a1 n1)HashJoin(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 5.442273855209351 / 6.144874572753906
+/*+HashJoin(a1 n1)HashJoin(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)NestLoop(a1 n1 ci rt t mc cn)*/ time: 9.277040719985962 / 9.14627742767334
+/*+HashJoin(a1 n1)NestLoop(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 4.768086671829224 / 5.380103826522827
+/*+HashJoin(a1 n1)NestLoop(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)NestLoop(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 7.5906007289886475 / 7.643752574920654
+/*+NestLoop(a1 n1)HashJoin(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 5.259629011154175 / 5.5717504024505615
+/*+NestLoop(a1 n1)HashJoin(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)NestLoop(a1 n1 ci rt t mc cn)*/ time: 9.171288251876831 / 9.104003429412842
+/*+NestLoop(a1 n1)HashJoin(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)NestLoop(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 7.816823959350586 / 7.858442544937134
+/*+NestLoop(a1 n1)NestLoop(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 5.065169334411621 / 5.026133298873901
+/*+NestLoop(a1 n1)NestLoop(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)NestLoop(a1 n1 ci rt t mc cn)*/ time: 8.840845346450806 / 8.878303289413452
+/*+NestLoop(a1 n1)NestLoop(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)NestLoop(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ time: 7.608205795288086 / 7.621790170669556
+/*+HashJoin(a1 n1)NestLoop(ci rt)HashJoin(ci rt t)HashJoin(a1 n1 ci rt t)HashJoin(a1 n1 ci rt t mc)HashJoin(a1 n1 ci rt t mc cn)*/ best_time: 4.768086671829224 / 4.768086671829224

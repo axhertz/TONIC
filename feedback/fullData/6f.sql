@@ -1,0 +1,17 @@
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mk k t ci)NestLoop(mk k t ci n)*/ time: 4.919255256652832 / 4.919255256652832
+/*+HashJoin(mk k)HashJoin(mk k t)HashJoin(mk k t ci)HashJoin(mk k t ci n)*/ time: 3.279355525970459 / 3.281388759613037
+/*+HashJoin(mk k)HashJoin(mk k t)HashJoin(mk k t ci)NestLoop(mk k t ci n)*/ time: 3.2603747844696045 / 5.325722932815552
+/*+HashJoin(mk k)HashJoin(mk k t)NestLoop(mk k t ci)HashJoin(mk k t ci n)*/ time: 2.1535723209381104 / 5.312089443206787
+/*+HashJoin(mk k)HashJoin(mk k t)NestLoop(mk k t ci)NestLoop(mk k t ci n)*/ time: 3.3475611209869385 / 3.356510877609253
+/*+HashJoin(mk k)NestLoop(mk k t)HashJoin(mk k t ci)HashJoin(mk k t ci n)*/ time: 3.092764377593994 / 3.1728341579437256
+/*+HashJoin(mk k)NestLoop(mk k t)HashJoin(mk k t ci)NestLoop(mk k t ci n)*/ time: 3.1115405559539795 / 3.096454620361328
+/*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mk k t ci)HashJoin(mk k t ci n)*/ time: 2.0519793033599854 / 2.0646469593048096
+/*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mk k t ci)NestLoop(mk k t ci n)*/ time: 3.22141695022583 / 3.257031202316284
+/*+NestLoop(mk k)HashJoin(mk k t)HashJoin(mk k t ci)HashJoin(mk k t ci n)*/ time: 3.0914969444274902 / 3.070064067840576
+/*+NestLoop(mk k)HashJoin(mk k t)HashJoin(mk k t ci)NestLoop(mk k t ci n)*/ time: 3.1017038822174072 / 3.0946104526519775
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mk k t ci)HashJoin(mk k t ci n)*/ time: 1.9812242984771729 / 1.9848906993865967
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mk k t ci)NestLoop(mk k t ci n)*/ time: 3.18819522857666 / 3.203106641769409
+/*+NestLoop(mk k)NestLoop(mk k t)HashJoin(mk k t ci)HashJoin(mk k t ci n)*/ time: 2.943371057510376 / 2.9599859714508057
+/*+NestLoop(mk k)NestLoop(mk k t)HashJoin(mk k t ci)NestLoop(mk k t ci n)*/ time: 2.954171895980835 / 2.950359344482422
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mk k t ci)HashJoin(mk k t ci n)*/ time: 2.3369967937469482 / 2.3252596855163574
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mk k t ci)HashJoin(mk k t ci n)*/ best_time: 1.9812242984771729 / 1.9812242984771729

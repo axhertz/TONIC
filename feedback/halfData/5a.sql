@@ -1,0 +1,17 @@
+/*+HashJoin(mc ct)HashJoin(mc ct t)HashJoin(mc ct t mi)HashJoin(mc ct t mi it)*/ time: 0.0828714370727539 / 0.0832967758178711
+/*+HashJoin(mc ct)HashJoin(mc ct t)HashJoin(mc ct t mi)NestLoop(mc ct t mi it)*/ time: 0.08262920379638672 / 0.0829164981842041
+/*+HashJoin(mc ct)HashJoin(mc ct t)NestLoop(mc ct t mi)HashJoin(mc ct t mi it)*/ time: 0.0830233097076416 / 0.0827021598815918
+/*+HashJoin(mc ct)HashJoin(mc ct t)NestLoop(mc ct t mi)NestLoop(mc ct t mi it)*/ time: 0.08262872695922852 / 0.08303284645080566
+/*+HashJoin(mc ct)NestLoop(mc ct t)HashJoin(mc ct t mi)HashJoin(mc ct t mi it)*/ time: 0.08649039268493652 / 0.08237910270690918
+/*+HashJoin(mc ct)NestLoop(mc ct t)HashJoin(mc ct t mi)NestLoop(mc ct t mi it)*/ time: 0.0825653076171875 / 0.08216547966003418
+/*+HashJoin(mc ct)NestLoop(mc ct t)NestLoop(mc ct t mi)HashJoin(mc ct t mi it)*/ time: 0.08294463157653809 / 0.08251810073852539
+/*+HashJoin(mc ct)NestLoop(mc ct t)NestLoop(mc ct t mi)NestLoop(mc ct t mi it)*/ time: 0.08295822143554688 / 0.08303141593933105
+/*+NestLoop(mc ct)HashJoin(mc ct t)HashJoin(mc ct t mi)HashJoin(mc ct t mi it)*/ time: 0.0874321460723877 / 0.08723783493041992
+/*+NestLoop(mc ct)HashJoin(mc ct t)HashJoin(mc ct t mi)NestLoop(mc ct t mi it)*/ time: 0.0869903564453125 / 0.08696293830871582
+/*+NestLoop(mc ct)HashJoin(mc ct t)NestLoop(mc ct t mi)HashJoin(mc ct t mi it)*/ time: 0.09186387062072754 / 0.08779692649841309
+/*+NestLoop(mc ct)HashJoin(mc ct t)NestLoop(mc ct t mi)NestLoop(mc ct t mi it)*/ time: 0.08698296546936035 / 0.08700847625732422
+/*+NestLoop(mc ct)NestLoop(mc ct t)HashJoin(mc ct t mi)HashJoin(mc ct t mi it)*/ time: 0.08678865432739258 / 0.08653545379638672
+/*+NestLoop(mc ct)NestLoop(mc ct t)HashJoin(mc ct t mi)NestLoop(mc ct t mi it)*/ time: 0.08740568161010742 / 0.08635115623474121
+/*+NestLoop(mc ct)NestLoop(mc ct t)NestLoop(mc ct t mi)HashJoin(mc ct t mi it)*/ time: 0.08695411682128906 / 0.08694219589233398
+/*+NestLoop(mc ct)NestLoop(mc ct t)NestLoop(mc ct t mi)NestLoop(mc ct t mi it)*/ time: 0.0914144515991211 / 0.0866250991821289
+/*+HashJoin(mc ct)NestLoop(mc ct t)HashJoin(mc ct t mi)NestLoop(mc ct t mi it)*/ best_time: 0.0825653076171875 / 0.0825653076171875

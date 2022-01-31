@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="analyseQEPS" targetName="analyseQEPS" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14edc9a2-2b84-4ada-b32b-4564e4dc362a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ProjectId" id="1tOcN4YBQQfAdTxnu8zHrTWFqON" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="analyseQEPS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="analyseQEPS" TARGET_NAME="analyseQEPS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="analyseQEPS" RUN_TARGET_NAME="analyseQEPS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14edc9a2-2b84-4ada-b32b-4564e4dc362a" name="Default Changelist" comment="" />
+      <created>1622643532785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622643532785</updated>
+      <workItem from="1622643534115" duration="2307000" />
+      <workItem from="1622647650018" duration="1356000" />
+      <workItem from="1622654712941" duration="5657000" />
+      <workItem from="1622700342137" duration="2974000" />
+      <workItem from="1622704683781" duration="71000" />
+      <workItem from="1622721853443" duration="11575000" />
+      <workItem from="1623084589809" duration="165000" />
+      <workItem from="1623084908045" duration="31000" />
+      <workItem from="1625407421327" duration="1519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="771" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622704171071">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="771" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1622704171071" />
+    <state x="1096" y="490" width="424" height="484" key="FileChooserDialogImpl" timestamp="1623084937805">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="1096" y="490" width="424" height="484" key="FileChooserDialogImpl/67.27.2493.1413@67.27.2493.1413" timestamp="1623084937805" />
+    <state width="2447" height="377" key="GridCell.Tab.0.bottom" timestamp="1625408341066">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="377" key="GridCell.Tab.0.bottom/67.27.2493.1413@67.27.2493.1413" timestamp="1625408341066" />
+    <state width="2447" height="377" key="GridCell.Tab.0.center" timestamp="1625408341065">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="377" key="GridCell.Tab.0.center/67.27.2493.1413@67.27.2493.1413" timestamp="1625408341065" />
+    <state width="2447" height="377" key="GridCell.Tab.0.left" timestamp="1625408341065">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="377" key="GridCell.Tab.0.left/67.27.2493.1413@67.27.2493.1413" timestamp="1625408341065" />
+    <state width="2447" height="377" key="GridCell.Tab.0.right" timestamp="1625408341066">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="2447" height="377" key="GridCell.Tab.0.right/67.27.2493.1413@67.27.2493.1413" timestamp="1625408341066" />
+    <state x="802" y="367" key="SettingsEditor" timestamp="1622704271016">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="802" y="367" key="SettingsEditor/67.27.2493.1413@67.27.2493.1413" timestamp="1622704271016" />
+    <state x="969" y="560" key="com.intellij.ide.util.TipDialog" timestamp="1623084908240">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="969" y="560" key="com.intellij.ide.util.TipDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1623084908240" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Node.cpp</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

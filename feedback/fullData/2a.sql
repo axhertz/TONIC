@@ -1,0 +1,17 @@
+/*+HashJoin(mk k)HashJoin(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.5687599182128906 / 0.5754899978637695
+/*+HashJoin(mk k)HashJoin(mk k t)HashJoin(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.6277663707733154 / 0.6391100883483887
+/*+HashJoin(mk k)HashJoin(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.47729945182800293 / 0.47319722175598145
+/*+HashJoin(mk k)HashJoin(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.5432653427124023 / 0.5586812496185303
+/*+HashJoin(mk k)NestLoop(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.4480135440826416 / 0.4505805969238281
+/*+HashJoin(mk k)NestLoop(mk k t)HashJoin(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.5148940086364746 / 0.5172595977783203
+/*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.32843542098999023 / 0.3315145969390869
+/*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.3896355628967285 / 0.3939049243927002
+/*+NestLoop(mk k)HashJoin(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.4221069812774658 / 0.42163872718811035
+/*+NestLoop(mk k)HashJoin(mk k t)HashJoin(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.477649450302124 / 0.49185633659362793
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.3276991844177246 / 0.3280365467071533
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.3976736068725586 / 0.4015624523162842
+/*+NestLoop(mk k)NestLoop(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.350128173828125 / 0.34778451919555664
+/*+NestLoop(mk k)NestLoop(mk k t)HashJoin(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.4197275638580322 / 0.42043042182922363
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.32703375816345215 / 0.3420288562774658
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.5428910255432129 / 0.549095630645752
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)*/ best_time: 0.32703375816345215 / 0.32703375816345215

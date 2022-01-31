@@ -1,0 +1,17 @@
+/*+HashJoin(mk k)HashJoin(mk k t)HashJoin(mc cn)NestLoop(mk k t mc cn)*/ time: 0.1936473846435547 / 0.1936473846435547
+/*+HashJoin(mk k)HashJoin(mk k t)HashJoin(mc cn)HashJoin(mk k t mc cn)*/ time: 0.011023521423339844 / 0.011270999908447266
+/*+HashJoin(mk k)HashJoin(mk k t)NestLoop(mc cn)HashJoin(mk k t mc cn)*/ time: 0.011025667190551758 / 0.015015602111816406
+/*+HashJoin(mk k)HashJoin(mk k t)NestLoop(mc cn)NestLoop(mk k t mc cn)*/ time: 0.029262781143188477 / 0.5319728851318359
+/*+HashJoin(mk k)NestLoop(mk k t)HashJoin(mc cn)HashJoin(mk k t mc cn)*/ time: 0.010654687881469727 / 0.011388540267944336
+/*+HashJoin(mk k)NestLoop(mk k t)HashJoin(mc cn)NestLoop(mk k t mc cn)*/ time: 0.19301724433898926 / 0.4483814239501953
+/*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mc cn)HashJoin(mk k t mc cn)*/ time: 0.010849475860595703 / 0.010547637939453125
+/*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mc cn)NestLoop(mk k t mc cn)*/ time: 0.01911187171936035 / 0.019556522369384766
+/*+NestLoop(mk k)HashJoin(mk k t)HashJoin(mc cn)HashJoin(mk k t mc cn)*/ time: 0.010756492614746094 / 0.011042594909667969
+/*+NestLoop(mk k)HashJoin(mk k t)HashJoin(mc cn)NestLoop(mk k t mc cn)*/ time: 0.1879138946533203 / 0.18997931480407715
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mc cn)HashJoin(mk k t mc cn)*/ time: 0.010416030883789062 / 0.010258913040161133
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mc cn)NestLoop(mk k t mc cn)*/ time: 0.019278526306152344 / 0.019793987274169922
+/*+NestLoop(mk k)NestLoop(mk k t)HashJoin(mc cn)HashJoin(mk k t mc cn)*/ time: 0.01059269905090332 / 0.010658979415893555
+/*+NestLoop(mk k)NestLoop(mk k t)HashJoin(mc cn)NestLoop(mk k t mc cn)*/ time: 0.1885967254638672 / 0.19023513793945312
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mc cn)HashJoin(mk k t mc cn)*/ time: 0.012782812118530273 / 0.014420509338378906
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mc cn)NestLoop(mk k t mc cn)*/ time: 0.019817829132080078 / 0.019608020782470703
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mc cn)HashJoin(mk k t mc cn)*/ best_time: 0.010416030883789062 / 0.010416030883789062

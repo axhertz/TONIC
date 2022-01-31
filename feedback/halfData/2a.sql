@@ -1,0 +1,17 @@
+/*+HashJoin(mk k)HashJoin(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.011495590209960938 / 0.01082468032836914
+/*+HashJoin(mk k)HashJoin(mk k t)HashJoin(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.011272430419921875 / 0.011416435241699219
+/*+HashJoin(mk k)HashJoin(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.010808229446411133 / 0.011376619338989258
+/*+HashJoin(mk k)HashJoin(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.011030197143554688 / 0.01114344596862793
+/*+HashJoin(mk k)NestLoop(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.010821104049682617 / 0.010785818099975586
+/*+HashJoin(mk k)NestLoop(mk k t)HashJoin(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.014063119888305664 / 0.01332998275756836
+/*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.010549068450927734 / 0.011012792587280273
+/*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.010994672775268555 / 0.010988950729370117
+/*+NestLoop(mk k)HashJoin(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.010842561721801758 / 0.01065683364868164
+/*+NestLoop(mk k)HashJoin(mk k t)HashJoin(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.011312007904052734 / 0.011025190353393555
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.010734319686889648 / 0.011055707931518555
+/*+NestLoop(mk k)HashJoin(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.011292219161987305 / 0.011042594909667969
+/*+NestLoop(mk k)NestLoop(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.010526657104492188 / 0.010573387145996094
+/*+NestLoop(mk k)NestLoop(mk k t)HashJoin(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.01108551025390625 / 0.011281967163085938
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)*/ time: 0.00752711296081543 / 0.006767988204956055
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)*/ time: 0.007172822952270508 / 0.007039546966552734
+/*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)*/ best_time: 0.007172822952270508 / 0.007172822952270508

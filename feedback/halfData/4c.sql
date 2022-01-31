@@ -1,0 +1,15 @@
+/*+HashJoin(mi_idx it)HashJoin(mi_idx it t)HashJoin(mk k)HashJoin(mi_idx it t mk k)*/ time: 0.3962399959564209 / 0.3978886604309082
+/*+HashJoin(mi_idx it)HashJoin(mi_idx it t)NestLoop(mk k)HashJoin(mi_idx it t mk k)*/ time: 0.3122127056121826 / 0.3126859664916992
+/*+HashJoin(mi_idx it)HashJoin(mi_idx it t)NestLoop(mk k)NestLoop(mi_idx it t mk k)*/ time: 1.9798383712768555 / 1.9804620742797852
+/*+HashJoin(mi_idx it)NestLoop(mi_idx it t)HashJoin(mk k)HashJoin(mi_idx it t mk k)*/ time: 0.34815239906311035 / 0.34748101234436035
+/*+HashJoin(mi_idx it)NestLoop(mi_idx it t)HashJoin(mk k)NestLoop(mi_idx it t mk k)*/ time: 1.9655170440673828 / 1.9671778678894043
+/*+HashJoin(mi_idx it)NestLoop(mi_idx it t)NestLoop(mk k)HashJoin(mi_idx it t mk k)*/ time: 0.26439833641052246 / 0.26875829696655273
+/*+HashJoin(mi_idx it)NestLoop(mi_idx it t)NestLoop(mk k)NestLoop(mi_idx it t mk k)*/ time: 1.7231621742248535 / 1.724863052368164
+/*+NestLoop(mi_idx it)HashJoin(mi_idx it t)HashJoin(mk k)HashJoin(mi_idx it t mk k)*/ time: 0.47344160079956055 / 0.49649739265441895
+/*+NestLoop(mi_idx it)HashJoin(mi_idx it t)NestLoop(mk k)HashJoin(mi_idx it t mk k)*/ time: 0.3926208019256592 / 0.4001636505126953
+/*+NestLoop(mi_idx it)HashJoin(mi_idx it t)NestLoop(mk k)NestLoop(mi_idx it t mk k)*/ time: 1.88535475730896 / 1.8869574069976807
+/*+NestLoop(mi_idx it)NestLoop(mi_idx it t)HashJoin(mk k)HashJoin(mi_idx it t mk k)*/ time: 0.7758080959320068 / 0.7584006786346436
+/*+NestLoop(mi_idx it)NestLoop(mi_idx it t)HashJoin(mk k)NestLoop(mi_idx it t mk k)*/ time: 1.8661139011383057 / 1.8634803295135498
+/*+NestLoop(mi_idx it)NestLoop(mi_idx it t)NestLoop(mk k)HashJoin(mi_idx it t mk k)*/ time: 0.521691083908081 / 0.5236175060272217
+/*+NestLoop(mi_idx it)NestLoop(mi_idx it t)NestLoop(mk k)NestLoop(mi_idx it t mk k)*/ time: 1.6276957988739014 / 1.6304492950439453
+/*+HashJoin(mi_idx it)NestLoop(mi_idx it t)NestLoop(mk k)HashJoin(mi_idx it t mk k)*/ best_time: 0.26439833641052246 / 0.26439833641052246
