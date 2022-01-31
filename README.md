@@ -1,17 +1,23 @@
 # TONIC
-Repository of the manuscript: <em>Turbo-Charging SPJ Query Plans with Learned Optimal PhysicalJoin Operator Selections</em>.
+Repository of the manuscript: <em>Turbo-Charging SPJ Query Plans with Learned Optimal Physical Join Operator Selections</em>
 
 
 VLDB'22
 
 
-This repository contains scripts to evaluate core characteristics of the QEP-S. Each sub-directory contains a folder with precomputed query feedback and base-table selectivities for the <em>selectivity-aware</em> QEP-S. The <em> Quick Evaluation</em> scripts therefore do not require any actual database connection. The steps for (re)computing the respective feedback and statistics are detailed in <em> Verbose Evaluation</em>.
+This repository contains scripts to evaluate core characteristics of the QEP-S. Each sub-directory contains a folder with precomputed query feedback and base-table selectivities. Filter selectivies are only used by the <em>selectivity-aware QEP-S</em>. The node implementation of the <em>plain</em> and <em>filter-aware</em> design implicitly uses [0,1] as selectivity intervall.
 
+The <em> Quick Evaluation</em> scripts do not require any actual database connection. The steps for (re)computing the respective feedback and statistics are detailed in <em> Verbose Evaluation</em>.
+
+## Requirements: ##
+- sudo apt install build-essential cmake python3-pip libpq-dev python3-dev
+- sudo pip3 install psycopg2
+- sudo pip3 install glob2 
 
 
 ## Quick Evaluation: 
 
-1. **Individual Experiments:** To run individual experiments use **`run_qeps.sh`** in the corresponding sub-directories. Running the experiments may require the installation of additional modules via `pip3-install`. Please run **`dataShift/run_qeps.sh`** at least once as other experiments, e.g. the adaptivity evaluation, may require a <em>pretrained</em> QEPS-S from the reduced data set.
+1. **Individual Experiments:** To run individual experiments use **`run_qeps.sh`** in the corresponding sub-directories. Running the experiments may require the installation of additional modules via `pip3 install`. Please run **`dataShift/run_qeps.sh`** at least once as other experiments, e.g., the adaptivity evaluation, may require a <em>pretrained</em> QEPS-S from the reduced data set.
 
 2. **All Experiments:** To run all experiments subsequently, please execute **`run_all_experiments.sh`**.
 
