@@ -1,14 +1,12 @@
-# QEP-S
-Repository of the manuscript: <em>QEP-S: Query Execution Plan Synopsis for Adaptive Physical Join Path Optimization</em>.
+# TONIC
+Repository of the manuscript: <em>Turbo-Charging SPJ Query Plans with Learned Optimal PhysicalJoin Operator Selections</em>.
 
-Anonymous Author(s)
 
-SIGMOD'22
+VLDB'22
 
 
 This repository contains scripts to evaluate core characteristics of the QEP-S. Each sub-directory contains a folder with precomputed query feedback and base-table selectivities for the <em>selectivity-aware</em> QEP-S. The <em> Quick Evaluation</em> scripts therefore do not require any actual database connection. The steps for (re)computing the respective feedback and statistics are detailed in <em> Verbose Evaluation</em>.
 
-**Since the anonymous GitHub does not allow for cloning, please find a  [zipped version of this repository](https://figshare.com/s/b4388e6cef51efb85dfc)  at [figshare](https://figshare.com/)**.
 
 
 ## Quick Evaluation: 

@@ -1,0 +1,1 @@
+/*+NestLoop(ci rt)NestLoop(ci rt t)NestLoop(ci rt t chn)NestLoop(ci rt t chn mc)NestLoop(ci rt t chn mc ct)NestLoop(ci rt t chn mc ct cn)*/

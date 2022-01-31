@@ -1,0 +1,1 @@
+/*+NestLoop(an n)NestLoop(an n ci)NestLoop(an n ci rt)NestLoop(an n ci rt chn)NestLoop(an n ci rt chn mc)NestLoop(an n ci rt chn mc cn)NestLoop(an n ci rt chn mc cn t)NestLoop(an n ci rt chn mc cn t mi)NestLoop(an n ci rt chn mc cn t mi it)*/

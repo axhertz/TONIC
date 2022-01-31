@@ -1,0 +1,1 @@
+/*+NestLoop(mi it1)NestLoop(mi it1 t)NestLoop(mi it1 t at)NestLoop(mi it1 t at mc)NestLoop(mi it1 t at mc ct)NestLoop(mi it1 t at mc ct cn)NestLoop(mi it1 t at mc ct cn mk)NestLoop(mi it1 t at mc ct cn mk k)*/

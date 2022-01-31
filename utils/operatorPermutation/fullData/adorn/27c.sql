@@ -1,0 +1,1 @@
+/*+NestLoop(ml lt)NestLoop(ml lt t)NestLoop(cc cct1)NestLoop(cc cct1 cct2)NestLoop(ml lt t cc cct1 cct2)NestLoop(ml lt t cc cct1 cct2 mc)NestLoop(ml lt t cc cct1 cct2 mc ct)NestLoop(ml lt t cc cct1 cct2 mc ct cn)NestLoop(mk k)NestLoop(ml lt t cc cct1 cct2 mc ct cn mk k)NestLoop(ml lt t cc cct1 cct2 mc ct cn mk k mi)*/
