@@ -1,5 +1,5 @@
 # TONIC
-Repository of the manuscript: <em>Turbo-Charging SPJ Query Plans with Learned Optimal Physical Join Operator Selections</em>
+Repository of the manuscript: <em>Turbo-Charging SPJ Query Plans with Learned Physical Join Operator Selections</em>
 
 
 VLDB'22
