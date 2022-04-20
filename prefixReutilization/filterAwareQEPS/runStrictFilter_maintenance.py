@@ -67,13 +67,37 @@ alias ={'kt':'kt','kt1':'kt','kt2':'kt',
 
 pattern = re.compile("""(\((.)*?\))""")
 pre_out_cnt = 0
-feedback_list = glob.glob("../../feedback/fullData/*.sql")
+feedback_list = []
+with open("queries_sort.pkl","rb") as fb:
+	queries_sort = pickle.load(fb)
+for q in queries_sort:
+	feedback_list.append("../../feedback/fullData/{}".format(q))
 
 
 
 	
 for file in feedback_list:
-
+	alias ={'kt':'kt','kt1':'kt','kt2':'kt',
+		't':'t','t1':'t','t2':'t',
+		'mk':'mk','mk1':'mk2','mk':'mk',
+		'a':'an','a1':'an','a2':'an','an':'an','an1':'an',
+		'mc':'mc','mc1':'mc','mc2':'mc',
+		'at':'at',
+		'cct':'cct','cct1':'cct','cct2':'cct',
+		'rt':'rt',
+		'mi_idx':'mi_idx','miidx':'mi_idx','mi_idx1':'mi_idx','mi_idx2':'mi_idx',
+		'ct': 'ct',
+		'n':'n','n1':'n','n2':'n',
+		'cn':'cn', 'cn1':'cn', 'cn2':'cn', 
+		'ci':'ci' , 
+		'chn':'chn', 
+		'cc':'cc',
+		'k':'k',
+		'mi':'mi',
+		'pi':'pi',
+		'it':'it', 'it1':'it','it2':'it','it3':'it',
+		'lt':'lt',
+		'ml':'ml'}
 	with open("SelDict/"+file.split("/")[-1].replace("sql", "pkl"), "rb" ) as selFile:
 		sel_dict = pickle.load(selFile)
 	with open("FilterExp/"+file.split("/")[-1].replace("sql","pkl"),"rb") as filterFile:

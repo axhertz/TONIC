@@ -41,7 +41,21 @@ if dataset == "half_data":
 		plan_cache = pickle.load(pretrained)
 
 
-alias ={'kt':'kt','kt1':'kt','kt2':'kt',
+
+pattern = re.compile("""(\((.)*?\))""")
+pre_out_cnt = 0
+feedback_list = []
+with open("queries_sort.pkl","rb") as fb:
+	queries_sort = pickle.load(fb)
+for q in queries_sort:
+	feedback_list.append("../../../feedback/fullData/{}".format(q))
+
+
+
+	
+for file in feedback_list:
+
+	alias ={'kt':'kt','kt1':'kt','kt2':'kt',
 		't':'t','t1':'t','t2':'t',
 		'mk':'mk','mk1':'mk2','mk':'mk',
 		'a':'an','a1':'an','a2':'an','an':'an','an1':'an',
@@ -62,16 +76,6 @@ alias ={'kt':'kt','kt1':'kt','kt2':'kt',
 		'it':'it', 'it1':'it','it2':'it','it3':'it',
 		'lt':'lt',
 		'ml':'ml'}
-
-pattern = re.compile("""(\((.)*?\))""")
-pre_out_cnt = 0
-feedback_list = glob.glob("../../../feedback/fullData/*.sql")
-
-
-
-	
-for file in feedback_list:
-
 	with open("SelDict/"+file.split("/")[-1].replace("sql", "pkl"), "rb" ) as selFile:
 		sel_dict = pickle.load(selFile)
 	with open("FilterExp/"+file.split("/")[-1].replace("sql","pkl"),"rb") as filterFile:

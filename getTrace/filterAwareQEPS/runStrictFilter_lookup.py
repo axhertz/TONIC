@@ -37,7 +37,14 @@ with open("filterAware_qeps.pkl","rb") as file:
 	plan_cache = pickle.load(file)
 
 
-alias ={'kt':'kt','kt1':'kt','kt2':'kt',
+
+
+pattern = re.compile("""(\((.)*?\))""")
+pre_out_cnt = 0
+feedback_list = glob.glob("../../feedback/fullData/*.sql")
+
+for file in feedback_list:
+	alias ={'kt':'kt','kt1':'kt','kt2':'kt',
 		't':'t','t1':'t','t2':'t',
 		'mk':'mk','mk1':'mk2','mk':'mk',
 		'a':'an','a1':'an','a2':'an','an':'an','an1':'an',
@@ -58,12 +65,6 @@ alias ={'kt':'kt','kt1':'kt','kt2':'kt',
 		'it':'it', 'it1':'it','it2':'it','it3':'it',
 		'lt':'lt',
 		'ml':'ml'}
-
-pattern = re.compile("""(\((.)*?\))""")
-pre_out_cnt = 0
-feedback_list = glob.glob("../../feedback/fullData/*.sql")
-
-for file in feedback_list:
 	with open("filter_trace_2.txt", "a+") as ft:
 		ft.write("start\n")
 

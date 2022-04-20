@@ -56,7 +56,11 @@ alias ={'kt':'kt','kt1':'kt','kt2':'kt',
 
 pattern = re.compile("""(\((.)*?\))""")
 pre_out_cnt = 0
-feedback_list = glob.glob("../../../feedback/halfData/*.sql")
+feedback_list = []
+with open("queries_sort.pkl","rb") as fb:
+	queries_sort = pickle.load(fb)
+for q in queries_sort:
+	feedback_list.append("../../../feedback/halfData/{}".format(q))
 
 for file in feedback_list:
 
