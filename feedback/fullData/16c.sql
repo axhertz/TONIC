@@ -1,3 +1,5 @@
+/*+NestLoop(mk k)NestLoop(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)HashJoin(mk k t mc cn ci)HashJoin(mk k t mc cn ci an)HashJoin(mk k t mc cn ci an n)*/ time: 3.0451107025146484 / 3.0451107025146484
+/*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mk k t mc)HashJoin(mk k t mc cn)HashJoin(mk k t mc cn ci)HashJoin(mk k t mc cn ci an)HashJoin(mk k t mc cn ci an n)*/ time: 3.014683961868286 / 3.014683961868286
 /*+NestLoop(mk k)HashJoin(mk k t)HashJoin(mk k t mc)HashJoin(mk k t mc cn)HashJoin(mk k t mc cn ci)HashJoin(mk k t mc cn ci an)HashJoin(mk k t mc cn ci an n)*/ time: 3.4306013584136963 / 3.4306013584136963
 /*+NestLoop(mk k)NestLoop(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)HashJoin(mk k t mc cn ci)HashJoin(mk k t mc cn ci an)NestLoop(mk k t mc cn ci an n)*/ time: 2.4109294414520264 / 2.4109294414520264
 /*+HashJoin(mk k)NestLoop(mk k t)NestLoop(mk k t mc)NestLoop(mk k t mc cn)HashJoin(mk k t mc cn ci)HashJoin(mk k t mc cn ci an)HashJoin(mk k t mc cn ci an n)*/ time: 2.8773181438446045 / 2.8773181438446045
