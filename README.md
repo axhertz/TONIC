@@ -5,7 +5,7 @@ Repository of the manuscript: <em>Turbo-Charging SPJ Query Plans with Learned Ph
 VLDB'22
 
 
-This repository contains scripts to evaluate core characteristics of the QEP-S. Each sub-directory contains a folder with precomputed query feedback and base-table selectivities. Filter selectivies are only used by the <em>selectivity-aware QEP-S</em>. The node implementation of the <em>plain</em> and <em>filter-aware</em> design implicitly uses [0,1] as selectivity intervall.
+This repository contains scripts to evaluate core characteristics of the QEP-S. Each sub-directory contains a folder with precomputed query feedback.
 
 The <em> Quick Evaluation</em> scripts do not require any actual database connection. The steps for (re)computing the respective feedback and statistics are detailed in <em> Verbose Evaluation</em>.
 
