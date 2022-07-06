@@ -21,3 +21,8 @@ bash run_qeps.sh
 echo "+++ run gamma experiment +++"
 cd ../gamma
 bash run_qeps.sh
+
+
+#echo "+++ run index rating experiment +++"
+#cd ../indexAdvisor
+#bash run_qeps.sh
