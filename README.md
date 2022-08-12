@@ -5,9 +5,7 @@ Repository of the paper: <em>Turbo-Charging SPJ Query Plans with Learned Physica
 VLDB'22
 
 
-This repository contains scripts to evaluate core characteristics of the QEP-S. Each sub-directory contains a folder with precomputed query feedback.
-
-The <em> Quick Evaluation</em> scripts do not require any actual database connection. The steps for (re)computing the respective feedback and statistics are detailed in <em> Verbose Evaluation</em>.
+This repository contains scripts to evaluate core characteristics of the QEP-S. Each sub-directory contains a folder with precomputed query feedback. The <em> Quick Evaluation</em> scripts do not require any actual database connection. The steps for (re)computing the respective feedback and statistics are detailed in <em> Verbose Evaluation</em>.
 
 ## Requirements: ##
 - sudo apt install build-essential cmake python3-pip libpq-dev python3-dev
