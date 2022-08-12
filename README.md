@@ -33,4 +33,22 @@ Recomputation of the query feedback and statistics requires the following steps:
 4. **Miscellaneous**: To stop QEP-S branching for already empty join results, `utils/getIntermediateSize.py` recomputes the necessary intermediate result sizes. Lastly, filter expressions for the <em>filter-aware</em> QEP-S have been extracted according to `utils/filterDict.py`.
 
 
+## Vision: Two-Stage Cardinality-Estimation-Free Optimizer Design
+In the future we seek to update this repository to provide a <em>generic</em> end-to-end implementation of TONIC combined with Simplicity (UES). 
 
+
+<img src="./figures/twostagedesign.png" width="750"/>
+
+
+Starting with a fresh workload, the two-stage design works as follows: 
+
+
+
+1. In the first stage, <em>TONIC</em> receives the join order determined by the Simplicity query optimizer and searches for the longest prefix match within the  <em>QEP-S</em> to find the most similar case. Since there is no workload history yet, the <em>QEP-S</em> is unable to identify a prefix match for the first query. In accordance, to the <em>UES</em> policy, we apply hash joins for the initial execution of an unknown join order.
+
+2. We use the actual join cardinalities as input for the default optimizer's cost model to determine the cost of every physical join operator alternative. Based on the cost feedback, we revise the operator decision of the previous step. 
+
+3. For the next queries, we again generate the logical plans according to <em>UES</em>. 
+However, <em>TONIC</em> additionally uses the <em>QEP-S</em> to determine the most cost effective join operators for already known join orders. For (partial) join orders that are not contained in the <em>QEP-S</em>, <em>TONIC</em> falls back to hash joins and updates the <em>QEP-S</em> with the respective query feedback, afterward. 
+
+4. Interestingly, since <em>TONIC</em> accumulates the cost of operator alternatives, we can approximate an index significance rating from the <em>QEP-S</em> cost history. <em>TONIC</em> can use this rating to automatically detect benecficial or unnecessary indices.
