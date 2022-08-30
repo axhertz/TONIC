@@ -32,7 +32,7 @@ Recomputation of the query feedback and statistics requires the following steps:
 
 
 ## Vision: Two-Stage Cardinality-Estimation-Free Optimizer Design
-In the future we seek to update this repository to provide a <em>generic</em> end-to-end implementation of TONIC combined with Simplicity (UES). 
+In the future we seek to update this repository to provide a <em>generic</em> end-to-end implementation of TONIC combined with [Simplicity (UES)](https://github.com/axhertz/SimplicityDoneRight). 
 
 
 <img src="./figures/twostagedesign.png" width="750"/>
