@@ -1,5 +1,5 @@
 # TONIC
-Repository of the paper: <em>Turbo-Charging SPJ Query Plans with Learned Physical Join Operator Selections.</em>
+Repository of the paper: [Turbo-Charging SPJ Query Plans with Learned Physical Join Operator Selections](https://vldb.org/pvldb/vol15/p2706-hertzschuch.pdf).
 
 
 VLDB'22
