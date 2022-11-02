@@ -25,7 +25,7 @@ This repository contains scripts to evaluate core characteristics of the QEP-S. 
 
 Recomputation of the query feedback and statistics requires the following steps:
 
-1. **PostgreSQL:** [Install Postgres](https://www.postgresql.org/download/linux/ubuntu/) and [load the (frozen) IMDB data](https://github.com/gregrahn/join-order-benchmark).
+1. **PostgreSQL:** [Install Postgres](https://www.postgresql.org/download/linux/ubuntu/) and load the (frozen), [official IMDB data](https://github.com/gregrahn/join-order-benchmark) or [[CSV files](https://cloudstore.zih.tu-dresden.de/index.php/s/eqWWK53CgkxMxfA)].
 2. **Reduced-Data:** Create another JOB instance where half the tuples from tables with at least 100k tuples are randomly dropped.
 3. **Query-Feedback:** [Install the plan_hint_extension](https://github.com/ossc-db/pg_hint_plan) (see documentation [here](https://pghintplan.osdn.jp/pg_hint_plan.html)). Using the extension, execute each query with all possible physical operator combinations. For details see `utils/operatorPermutation`.
 4. **Miscellaneous**: To stop QEP-S branching for already empty join results, `utils/getIntermediateSize.py` recomputes the necessary intermediate result sizes. Lastly, filter expressions for the <em>filter-aware</em> QEP-S have been extracted according to `utils/filterDict.py`.
